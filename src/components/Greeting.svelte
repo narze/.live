@@ -2,9 +2,3 @@
   <span>Hello there, </span>
   <span>I'm <span class="font-bold name">narze</span> 👋</span>
 </h1>
-
-<style>
-  .name {
-    color: #ff8552;
-  }
-</style>
