@@ -5,7 +5,7 @@
 
 <main class="font-sans text-white bg-zinc-900">
   <div class="min-h-screen flex items-center justify-center">
-    <div class="container w-full text-center py-8">
+    <div class="w-full text-center py-8">
       <Greeting />
       <Links />
     </div>
