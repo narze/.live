@@ -1,0 +1,22 @@
+---
+// Component Imports
+import Button from '../components/Button.astro';
+// Imports the global styles to be inlined in the <head>
+import styles from '../styles/global.css';
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<title>Astro + TailwindCSS</title>
+		<style set:html={styles}></style>
+	</head>
+
+	<body>
+		<Button>I’m a Tailwind Button!</Button>
+	</body>
+</html>
