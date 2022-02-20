@@ -6,7 +6,7 @@
   import BriefcaseIcon from "./BriefcaseIcon.svelte"
 </script>
 
-<div class="flex flex-col flex-wrap gap-4 justify-center mt-8">
+<div class="flex flex-col xs:flex-row flex-wrap gap-4 justify-center mt-8">
   <LinkButton href="https://garden.narze.live"><NoteIcon />Garden</LinkButton>
   <LinkButton href="https://github.com/narze"><CodeIcon />GitHub</LinkButton>
   <LinkButton href="https://www.youtube.com/c/narzelive"
@@ -16,11 +16,3 @@
     ><BriefcaseIcon />Résumé</LinkButton
   >
 </div>
-
-<style>
-  @media (min-width: 480px) {
-    .flex {
-      @apply flex-row;
-    }
-  }
-</style>
