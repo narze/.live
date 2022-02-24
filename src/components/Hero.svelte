@@ -1,9 +1,11 @@
 <script>
-  import Greeting from "./Greeting.svelte"
-  import Links from "./Links.svelte"
   import { onMount } from "svelte"
   import { fade, fly } from "svelte/transition"
   import { cubicInOut } from "svelte/easing"
+
+  import Greeting from "./Greeting.svelte"
+  import Links from "./Links.svelte"
+  import Areas from "./Areas.svelte"
 
   let ready = false
 
@@ -28,6 +30,7 @@
       >
         <div transition:fly={{ y: 200, duration: 1000 }}>
           <Greeting />
+          <Areas />
           <Links />
         </div>
       </div>
