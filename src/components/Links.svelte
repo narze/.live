@@ -17,4 +17,10 @@
   <LinkButton href="https://resume.narze.live"
     ><BriefcaseIcon />Résumé</LinkButton
   >
+  <LinkButton
+    href="#"
+    on:click={() => {
+      window.location.href = "https://youtu.be/iik25wqIuFo"
+    }}>OnlyFans</LinkButton
+  >
 </div>
