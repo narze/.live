@@ -5,6 +5,7 @@
 
   import Greeting from "./Greeting.svelte"
   import Links from "./Links.svelte"
+  import Rings from "./Rings.svelte"
   import Areas from "./Areas.svelte"
 
   let ready = false
@@ -32,6 +33,7 @@
           <Greeting />
           <Areas />
           <Links />
+          <Rings />
         </div>
       </div>
     {/if}
