@@ -1,11 +1,3 @@
-<script>
-  import LinkButton from "./LinkButton.svelte"
-  import CodeIcon from "./CodeIcon.svelte"
-  import YoutubeIcon from "./YoutubeIcon.svelte"
-  import NoteIcon from "./NoteIcon.svelte"
-  import BriefcaseIcon from "./BriefcaseIcon.svelte"
-</script>
-
 <div class="flex flex-col xs:flex-row flex-wrap gap-2 justify-center mt-8">
   <a
     href="https://webring.wonderful.software#garden.narze.live"
