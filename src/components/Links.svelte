@@ -9,9 +9,6 @@
 </script>
 
 <div class="flex flex-col xs:flex-row flex-wrap gap-4 justify-center mt-8">
-  <LinkButton href="https://hacktober.narze.live"
-    ><HacktoberFestIcon /><span class="name">Hacktoberfest</span></LinkButton
-  >
   <LinkButton href="https://garden.narze.live"><NoteIcon />Garden</LinkButton>
   <LinkButton href="https://github.com/narze"><CodeIcon />GitHub</LinkButton>
   <LinkButton href="https://youtube.narze.live"
