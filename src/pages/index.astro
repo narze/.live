@@ -3,6 +3,8 @@
 import Hero from "../components/Hero.svelte"
 // Imports the global styles to be inlined in the <head>
 import styles from '../styles/global.css?inline';
+import ThemeSwitch from "../components/ThemeSwitch.svelte";
+import DarkModeScript from "../components/DarkModeScript.astro";
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -20,9 +22,13 @@ import styles from '../styles/global.css?inline';
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9293827537070646"
       crossorigin="anonymous"></script>
+    <DarkModeScript />
 	</head>
 
-	<body>
+  <body class="text-zinc-700 bg-white dark:text-white dark:bg-zinc-900">
+    <div class="absolute top-4 right-4">
+      <ThemeSwitch client:only />
+    </div>
 		<Hero client:idle />
 	</body>
 </html>

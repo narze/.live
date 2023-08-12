@@ -22,7 +22,7 @@
   })
 </script>
 
-<main class="font-sans text-white bg-zinc-900">
+<main class="font-sans">
   <div class="fill-viewport-height flex items-center justify-center">
     {#if ready}
       <div
