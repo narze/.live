@@ -1,3 +1,5 @@
+import { defineConfig } from "astro/config"
+import svelte from "@astrojs/svelte"
 // Full Astro Configuration API Documentation:
 // https://docs.astro.build/reference/configuration-reference
 
@@ -7,7 +9,10 @@
 // You can disable this by removing "@ts-check" and `@type` comments below.
 
 // @ts-check
-export default /** @type {import('astro').AstroUserConfig} */ ({
-  // Enable the Preact renderer to support Preact JSX components.
-  renderers: ["@astrojs/renderer-svelte"],
-})
+
+// https://astro.build/config
+export default defineConfig(
+  /** @type {import('astro').AstroUserConfig} */ {
+    integrations: [svelte()],
+  },
+)
