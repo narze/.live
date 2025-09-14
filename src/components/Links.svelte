@@ -11,7 +11,6 @@
 
 <div class="flex flex-col gap-4">
   <div class="flex flex-col xs:flex-row flex-wrap gap-4 justify-center mt-8">
-    <LinkButton href="https://10k.narze.live">💸 10k Planner (New!)</LinkButton>
     <LinkButton href="https://garden.narze.live"><NoteIcon />Garden</LinkButton>
     <LinkButton href="https://chat.narze.live"><ChatIcon />ChatOS</LinkButton>
   </div>
