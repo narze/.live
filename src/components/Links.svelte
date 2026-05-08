@@ -7,6 +7,7 @@
   import BriefcaseIcon from "./BriefcaseIcon.svelte"
   import TwitchIcon from "./TwitchIcon.svelte"
   import HacktoberFestIcon from "./HacktoberFestIcon.svelte"
+  import ShoppingBagIcon from "./ShoppingBagIcon.svelte"
 </script>
 
 <div class="flex flex-col gap-4">
@@ -25,6 +26,12 @@
     >
     <LinkButton href="https://resume.narze.live"
       ><BriefcaseIcon />Résumé</LinkButton
+    >
+    <LinkButton href="https://word.in.th"
+      ><NoteIcon />word.in.th</LinkButton
+    >
+    <LinkButton href="https://geekcraft.shop"
+      ><ShoppingBagIcon />geekcraft.shop</LinkButton
     >
   </div>
 </div>
